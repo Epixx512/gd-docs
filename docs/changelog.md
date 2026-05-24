@@ -3,6 +3,11 @@ aside: true
 ---
 # Changelog
 
+## 2.2082
+
+- `binaryVersion`: `48`
+- new client level key: [`k125`](/resources/client/level#:~:text=k125,disable)
+
 ## 2.208, 2.2081
 
 - `binaryVersion`: `46` (2.208), `47` (2.2081)
@@ -12,7 +17,7 @@ aside: true
 - new [getGJLevelScores211](/endpoints/levels/getGJLevelScores211#:~:text=s11,The%20level%20version) and [getGJLevelScoresPlat](/endpoints/levels/getGJLevelScoresPlat#:~:text=s11,The%20level%20version) params: `s11`-`s20`
 - the [Level Leaderboard CHK](topics/encryption/chk#level-leaderboard) is now more secure ✨
 - `time` param in getGJLevelScores is now sent for classic levels too, not just platformer ones
-- new client level keys: [`k115`-`k125`](/resources/client/level#:~:text=k115,disable)
+- new client level keys: [`k115`-`k124`](/resources/client/level#:~:text=k115,were%20successfully%20saved)
 - new gauntlets ([55-60](/resources/server/gauntlet#:~:text=Cosmos-,55,Love,-Trivia))
 - new song type `2`: CHOMPO
 - new game variables ([176-181](/resources/client/gamesave/gv#:~:text=gv_0176,Trace%20Arrows%20\(editor\)))
