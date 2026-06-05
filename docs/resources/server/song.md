@@ -44,6 +44,12 @@ The IDs for Music Library songs start at 10,000,000
 | 13  | new              | **Boolean**         | Whether the NEW icon shows up or not                   |
 | 14  | newType          | **Integer**         | Type of NEW icon. 0 for Yellow, 1 for Blue             |
 | 15  | extraArtistNames | **Array**           | Artist names in this format: `{id},{name},{id},{name}` |
+| 16  | downloadSoundtrackOverride | **String** | The link to open with the "Download Soundtrack" button |
 
 #### **Trivia**
 - The savefile song structure uses the exact same keys as the server response
+- The user-friendly URL to open with the "Download Soundtrack" button is determined as follows:
+	- if `downloadSoundtrackOverride` has value, use it
+	- else if it's an NCS song, use `link`
+	- else if `videoID` has value, use `https://www.youtube.com/watch?v={videoID}`
+	- else use `https://www.newgrounds.com/audio/listen/{id}`
