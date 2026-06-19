@@ -11,7 +11,7 @@ Restores user's data; no longer exists as of the new save system
 
 ## Response
 
-A 404 error code; original response is below
+A 404 error code; original HTTP error 500 response is below
 
 ## Example
 
