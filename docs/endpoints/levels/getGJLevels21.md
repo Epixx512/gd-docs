@@ -27,7 +27,7 @@
 | `legendary`       | Mythic filter, either 1 or not sent (__swapped with `mythic`__) |  | <!--o: missing/1-->
 | `mythic`          | Legendary filter, either 1 or not sent (__swapped with `legendary`__) |  | <!--o: missing/1-->
 | `local`           | Whether to fetch "My Online Levels", either 1 or not sent |  | <!--o: sent if type=5 and str=senderUserID-->
-| `song`            | Official (or custom) song ID, not sent when off (Stereo Madness = 1) |  | <!--o: missing/non-zero-->
+| `song`            | Official (or custom) song ID, not sent when off (Stereo Madness = 1) |  | <!--o: missing/non-zero BUT CAN BE SENT AS 0 WHEN customSong=1-->
 | `customSong`      | Whether the `song` is a Newgrounds song. Either 1 or not sent |  | <!--o-->
 | `star`            | Rated filter, either 1 or not sent |  | <!--o: missing/1, mut excl with noStar-->
 | `noStar`          | Unrated filter, either 1 or not sent |  | <!--o: missing/1, mut excl with star-->
