@@ -45,6 +45,7 @@ This endpoint is used to search level lists by name and / or filter
 | `-`  | None                                                       |
 | `-1` | N/A                                                        |
 | `-2` | Demons (see `demonFilter` for specifying demon difficulty) |
+| `-3` | Auto                                                       |
 | `1`  | Easy                                                       |
 | `2`  | Normal                                                     |
 | `3`  | Hard                                                       |
